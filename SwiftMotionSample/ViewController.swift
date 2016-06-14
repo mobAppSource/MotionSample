@@ -58,10 +58,21 @@ class ViewController: UIViewController {
 //        self.manager.getAccelerometerValues(1.0) { (x, y, z) in
 //            print("X: \(x) Y: \(y) Z: \(z)")
 //        }
-        self.manager.getAccelerationFromDeviceMotion(1.0) { (x, y, z) in
-            print("X: \(x) Y: \(y) Z: \(z)")
+//        self.manager.getAccelerationFromDeviceMotion(1.0) { (x, y, z) in
+//            print("X: \(x) Y: \(y) Z: \(z)")
+//        }
+
+        self.manager.getAttitudeFromDeviceMotion(0.2) {
+            (attitude) in
+            if let atti = attitude as CMAttitude?{
+                self.rotX.text = String(format: "%.3f", self.radians(fromDegrees: atti.yaw))
+                self.rotY.text = String(format: "%.3f", self.radians(fromDegrees: atti.pitch))
+                self.rotZ.text = String(format: "%.3f", self.radians(fromDegrees: atti.roll))
+                //
+                self.view.layer.transform = CATransform3DRotate(CATransform3DIdentity, CGFloat(atti.yaw), 0, 0, 1)
+                
+            }
         }
-        
         
 //        motionManager.accelerometerUpdateInterval = 0.2
 //        
