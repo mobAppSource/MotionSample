@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		74ABE03891AF379CDAF79D52 /* Pods_SwiftMotionSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EAECE9BCEFE6C01F78A1DD7 /* Pods_SwiftMotionSample.framework */; };
+		AF275C091D1070850005E3A3 /* MotionKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF275C081D1070850005E3A3 /* MotionKit.swift */; };
 		AFE1730A1D0F093500FCB903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE173091D0F093500FCB903 /* AppDelegate.swift */; };
 		AFE1730C1D0F093500FCB903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE1730B1D0F093500FCB903 /* ViewController.swift */; };
 		AFE1730F1D0F093500FCB903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE1730D1D0F093500FCB903 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		19B0D853003DB3391DF737A4 /* Pods-SwiftMotionSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMotionSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMotionSample/Pods-SwiftMotionSample.debug.xcconfig"; sourceTree = "<group>"; };
 		4CE1E3568633DA54C282DC15 /* Pods-SwiftMotionSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMotionSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMotionSample/Pods-SwiftMotionSample.release.xcconfig"; sourceTree = "<group>"; };
 		8EAECE9BCEFE6C01F78A1DD7 /* Pods_SwiftMotionSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMotionSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF275C081D1070850005E3A3 /* MotionKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionKit.swift; sourceTree = "<group>"; };
 		AFE173061D0F093500FCB903 /* SwiftMotionSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMotionSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE173091D0F093500FCB903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE1730B1D0F093500FCB903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		AFE173081D0F093500FCB903 /* SwiftMotionSample */ = {
 			isa = PBXGroup;
 			children = (
+				AF275C081D1070850005E3A3 /* MotionKit.swift */,
 				AFE173091D0F093500FCB903 /* AppDelegate.swift */,
 				AFE1730B1D0F093500FCB903 /* ViewController.swift */,
 				AFE1730D1D0F093500FCB903 /* Main.storyboard */,
@@ -99,12 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFE173181D0F093500FCB903 /* Build configuration list for PBXNativeTarget "SwiftMotionSample" */;
 			buildPhases = (
-				3EC892258FC72E2796D6A004 /* 📦 Check Pods Manifest.lock */,
+				3EC892258FC72E2796D6A004 /* [CP] Check Pods Manifest.lock */,
 				AFE173021D0F093500FCB903 /* Sources */,
 				AFE173031D0F093500FCB903 /* Frameworks */,
 				AFE173041D0F093500FCB903 /* Resources */,
-				2E14D4B3D90339FFCC32B0B7 /* 📦 Embed Pods Frameworks */,
-				724A1F5ECB1739C9AF390EEF /* 📦 Copy Pods Resources */,
+				2E14D4B3D90339FFCC32B0B7 /* [CP] Embed Pods Frameworks */,
+				724A1F5ECB1739C9AF390EEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,14 +165,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E14D4B3D90339FFCC32B0B7 /* 📦 Embed Pods Frameworks */ = {
+		2E14D4B3D90339FFCC32B0B7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,14 +180,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMotionSample/Pods-SwiftMotionSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3EC892258FC72E2796D6A004 /* 📦 Check Pods Manifest.lock */ = {
+		3EC892258FC72E2796D6A004 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,14 +195,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		724A1F5ECB1739C9AF390EEF /* 📦 Copy Pods Resources */ = {
+		724A1F5ECB1739C9AF390EEF /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +219,7 @@
 			files = (
 				AFE1730C1D0F093500FCB903 /* ViewController.swift in Sources */,
 				AFE1730A1D0F093500FCB903 /* AppDelegate.swift in Sources */,
+				AF275C091D1070850005E3A3 /* MotionKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

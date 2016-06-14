@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="X - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r1i-5C-4at" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="47" y="79" width="80" height="35"/>
+                                <rect key="frame" x="47" y="72" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="gbP-im-5I1"/>
                                     <constraint firstAttribute="width" constant="80" id="kR2-si-wR5"/>
@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Y - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vmU-Fe-3ZL" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="147" y="79" width="80" height="35"/>
+                                <rect key="frame" x="147" y="72" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="c0e-5p-8Qm"/>
                                     <constraint firstAttribute="width" constant="80" id="zEN-Dp-uRT"/>
@@ -46,7 +46,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Z - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WyW-3a-Avh" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="247" y="79" width="80" height="35"/>
+                                <rect key="frame" x="247" y="72" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="08h-ZD-R2i"/>
                                     <constraint firstAttribute="height" constant="35" id="d5Z-M8-MNa"/>
@@ -55,7 +55,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="X - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ppz-jb-Fes" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="47" y="173" width="80" height="35"/>
+                                <rect key="frame" x="47" y="166" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="Cgj-IC-vAS"/>
                                     <constraint firstAttribute="height" constant="35" id="qci-6M-InK"/>
@@ -64,7 +64,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Acceleration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOP-j1-NZo">
-                                <rect key="frame" x="88" y="122" width="199" height="34"/>
+                                <rect key="frame" x="88" y="115" width="199" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="VC8-IJ-Bdw"/>
                                     <constraint firstAttribute="width" constant="199" id="oa7-Q1-hOJ"/>
@@ -74,7 +74,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Y - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mv8-W3-08I" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="147" y="173" width="80" height="35"/>
+                                <rect key="frame" x="147" y="166" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="CR0-Je-a2W"/>
                                     <constraint firstAttribute="height" constant="35" id="xGZ-Xd-ie8"/>
@@ -83,7 +83,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Z - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fhi-gx-CTF" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="247" y="173" width="80" height="35"/>
+                                <rect key="frame" x="247" y="166" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="VhS-Mn-ToS"/>
                                     <constraint firstAttribute="width" constant="80" id="hKq-KS-2Oy"/>
@@ -92,7 +92,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="X - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n0n-ty-z06" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="47" y="282" width="80" height="35"/>
+                                <rect key="frame" x="47" y="255" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="JZH-dA-oVW"/>
                                     <constraint firstAttribute="height" constant="35" id="nsD-VJ-bcs"/>
@@ -101,7 +101,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kv1-ws-GAm">
-                                <rect key="frame" x="119" y="228" width="137" height="34"/>
+                                <rect key="frame" x="119" y="211" width="137" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="137" id="ZYD-hG-C3i"/>
                                     <constraint firstAttribute="height" constant="34" id="rK4-7H-wkK"/>
@@ -111,7 +111,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Y - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MFl-Nd-iUW" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="147" y="282" width="80" height="35"/>
+                                <rect key="frame" x="147" y="255" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="eKW-ye-ySM"/>
                                     <constraint firstAttribute="height" constant="35" id="nV6-lS-B3e"/>
@@ -120,7 +120,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Z - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2td-te-DNh" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="247" y="282" width="80" height="35"/>
+                                <rect key="frame" x="247" y="255" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="00T-2c-q6D"/>
                                     <constraint firstAttribute="height" constant="35" id="roW-o3-83N"/>
@@ -128,17 +128,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="X - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z8V-BU-s5J" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="47" y="396" width="80" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="Q7G-Bt-arm"/>
-                                    <constraint firstAttribute="width" constant="80" id="Uao-vS-c2s"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Y - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cEU-wh-s64" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="147" y="396" width="80" height="35"/>
+                                <rect key="frame" x="147" y="344" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="N0H-8f-oQs"/>
                                     <constraint firstAttribute="height" constant="35" id="tbW-ix-GeK"/>
@@ -147,7 +138,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Z - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Cp-P6-paK" customClass="JVFloatLabeledTextField">
-                                <rect key="frame" x="247" y="396" width="80" height="35"/>
+                                <rect key="frame" x="247" y="344" width="80" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="SI9-7i-wV8"/>
                                     <constraint firstAttribute="width" constant="80" id="l5V-oq-mM0"/>
@@ -171,7 +162,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Rotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7Z-bk-H6o">
-                                <rect key="frame" x="88" y="337" width="199" height="34"/>
+                                <rect key="frame" x="88" y="300" width="199" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="199" id="Lja-CM-Ocq"/>
                                     <constraint firstAttribute="height" constant="34" id="SDP-4L-mv0"/>
@@ -180,20 +171,107 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="X - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lct-B9-Hgw" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="47" y="436" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="AXe-sd-6ao"/>
+                                    <constraint firstAttribute="height" constant="35" id="cAP-gU-LpX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Y - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KZn-Db-Hvb" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="147" y="436" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Sc7-cD-3GY"/>
+                                    <constraint firstAttribute="width" constant="80" id="m47-Vc-uGx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Z - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5eM-I2-RNX" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="247" y="436" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="4oI-t0-s3g"/>
+                                    <constraint firstAttribute="width" constant="80" id="u9a-ge-zuD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Rotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ll-LA-8j8">
+                                <rect key="frame" x="88" y="392" width="199" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="199" id="DPC-Gv-AY6"/>
+                                    <constraint firstAttribute="height" constant="34" id="WVc-48-Xfw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="X - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mcc-HX-w8T" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="47" y="436" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="EtZ-v7-5DZ"/>
+                                    <constraint firstAttribute="width" constant="80" id="Si2-GG-MWq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Y - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YVk-cZ-2g5" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="147" y="436" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="d6J-KR-Pc2"/>
+                                    <constraint firstAttribute="height" constant="35" id="m9v-Q6-Kat"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Rotation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7s9-7G-Asf">
+                                <rect key="frame" x="88" y="392" width="199" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="F2y-vE-iz2"/>
+                                    <constraint firstAttribute="width" constant="199" id="Scc-gW-We3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="X - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z8V-BU-s5J" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="47" y="344" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Q7G-Bt-arm"/>
+                                    <constraint firstAttribute="width" constant="80" id="Uao-vS-c2s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Z - Axis" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qx1-w6-Sse" customClass="JVFloatLabeledTextField">
+                                <rect key="frame" x="247" y="436" width="80" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="MUl-CG-Hqy"/>
+                                    <constraint firstAttribute="width" constant="80" id="zmZ-hQ-WQN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vmU-Fe-3ZL" firstAttribute="top" secondItem="eg0-2n-hoB" secondAttribute="bottom" constant="17" id="0S6-ia-jwA"/>
+                            <constraint firstItem="vmU-Fe-3ZL" firstAttribute="top" secondItem="eg0-2n-hoB" secondAttribute="bottom" constant="10" id="0S6-ia-jwA"/>
                             <constraint firstItem="ppz-jb-Fes" firstAttribute="top" secondItem="YOP-j1-NZo" secondAttribute="bottom" constant="17" id="150-mE-32J"/>
+                            <constraint firstItem="7s9-7G-Asf" firstAttribute="top" secondItem="cEU-wh-s64" secondAttribute="bottom" constant="13" id="17U-yO-xcs"/>
                             <constraint firstItem="vmU-Fe-3ZL" firstAttribute="centerX" secondItem="eg0-2n-hoB" secondAttribute="centerX" id="5dj-az-e1e"/>
                             <constraint firstItem="cEU-wh-s64" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5rZ-ag-gbR"/>
                             <constraint firstItem="N7n-sb-BKH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Fo-CC-flp"/>
-                            <constraint firstItem="2td-te-DNh" firstAttribute="top" secondItem="Kv1-ws-GAm" secondAttribute="bottom" constant="20" id="8IB-yK-T7R"/>
-                            <constraint firstItem="k7Z-bk-H6o" firstAttribute="top" secondItem="MFl-Nd-iUW" secondAttribute="bottom" constant="20" id="8fv-vm-bUi"/>
-                            <constraint firstItem="r1i-5C-4at" firstAttribute="top" secondItem="eg0-2n-hoB" secondAttribute="bottom" constant="17" id="9x0-rO-6U3"/>
+                            <constraint firstItem="2td-te-DNh" firstAttribute="top" secondItem="Kv1-ws-GAm" secondAttribute="bottom" constant="10" id="8IB-yK-T7R"/>
+                            <constraint firstItem="k7Z-bk-H6o" firstAttribute="top" secondItem="MFl-Nd-iUW" secondAttribute="bottom" constant="10" id="8fv-vm-bUi"/>
+                            <constraint firstItem="5eM-I2-RNX" firstAttribute="leading" secondItem="KZn-Db-Hvb" secondAttribute="trailing" constant="20" id="9Ck-Op-8pB"/>
+                            <constraint firstItem="r1i-5C-4at" firstAttribute="top" secondItem="eg0-2n-hoB" secondAttribute="bottom" constant="10" id="9x0-rO-6U3"/>
                             <constraint firstItem="MFl-Nd-iUW" firstAttribute="leading" secondItem="n0n-ty-z06" secondAttribute="trailing" constant="20" id="AIN-0x-GY4"/>
-                            <constraint firstItem="z8V-BU-s5J" firstAttribute="top" secondItem="k7Z-bk-H6o" secondAttribute="bottom" constant="25" id="AqP-zK-MEk"/>
+                            <constraint firstItem="z8V-BU-s5J" firstAttribute="top" secondItem="k7Z-bk-H6o" secondAttribute="bottom" constant="10" id="AqP-zK-MEk"/>
+                            <constraint firstItem="KZn-Db-Hvb" firstAttribute="top" secondItem="8ll-LA-8j8" secondAttribute="bottom" constant="10" id="AvP-dX-AZt"/>
                             <constraint firstItem="2td-te-DNh" firstAttribute="leading" secondItem="MFl-Nd-iUW" secondAttribute="trailing" constant="20" id="DBl-Ud-O43"/>
+                            <constraint firstItem="YVk-cZ-2g5" firstAttribute="top" secondItem="7s9-7G-Asf" secondAttribute="bottom" constant="10" id="DbB-Q6-5ID"/>
                             <constraint firstItem="YOP-j1-NZo" firstAttribute="leading" secondItem="eg0-2n-hoB" secondAttribute="leading" constant="-31" id="Ew5-xg-c5n"/>
                             <constraint firstItem="eg0-2n-hoB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hrh-XY-PQL"/>
                             <constraint firstItem="cEU-wh-s64" firstAttribute="leading" secondItem="z8V-BU-s5J" secondAttribute="trailing" constant="20" id="HxW-fP-DXy"/>
@@ -201,22 +279,34 @@
                             <constraint firstItem="k7Z-bk-H6o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KPJ-Qm-eLQ"/>
                             <constraint firstItem="Kv1-ws-GAm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MXz-pk-Mlz"/>
                             <constraint firstItem="Fhi-gx-CTF" firstAttribute="leading" secondItem="Mv8-W3-08I" secondAttribute="trailing" constant="20" id="Oi2-S9-Rs1"/>
+                            <constraint firstItem="KZn-Db-Hvb" firstAttribute="leading" secondItem="Lct-B9-Hgw" secondAttribute="trailing" constant="20" id="PR1-lq-ZJf"/>
                             <constraint firstItem="Fhi-gx-CTF" firstAttribute="top" secondItem="YOP-j1-NZo" secondAttribute="bottom" constant="17" id="PVB-eF-UEb"/>
-                            <constraint firstItem="MFl-Nd-iUW" firstAttribute="top" secondItem="Kv1-ws-GAm" secondAttribute="bottom" constant="20" id="Qhq-MV-Mzf"/>
+                            <constraint firstItem="MFl-Nd-iUW" firstAttribute="top" secondItem="Kv1-ws-GAm" secondAttribute="bottom" constant="10" id="Qhq-MV-Mzf"/>
+                            <constraint firstItem="8ll-LA-8j8" firstAttribute="centerX" secondItem="KZn-Db-Hvb" secondAttribute="centerX" id="W7g-p5-aOr"/>
+                            <constraint firstItem="5eM-I2-RNX" firstAttribute="top" secondItem="8ll-LA-8j8" secondAttribute="bottom" constant="10" id="XfN-Mo-uoD"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="N7n-sb-BKH" secondAttribute="bottom" constant="48" id="bCb-6Z-4WN"/>
+                            <constraint firstItem="YVk-cZ-2g5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dCl-h2-Efr"/>
                             <constraint firstItem="Mv8-W3-08I" firstAttribute="leading" secondItem="ppz-jb-Fes" secondAttribute="trailing" constant="20" id="dSj-6u-XP9"/>
+                            <constraint firstItem="YVk-cZ-2g5" firstAttribute="leading" secondItem="mcc-HX-w8T" secondAttribute="trailing" constant="20" id="eV4-Fh-RWn"/>
                             <constraint firstItem="8Cp-P6-paK" firstAttribute="leading" secondItem="cEU-wh-s64" secondAttribute="trailing" constant="20" id="eqR-wu-hgh"/>
+                            <constraint firstItem="Lct-B9-Hgw" firstAttribute="top" secondItem="8ll-LA-8j8" secondAttribute="bottom" constant="10" id="ezT-N0-Tvc"/>
                             <constraint firstItem="WyW-3a-Avh" firstAttribute="leading" secondItem="vmU-Fe-3ZL" secondAttribute="trailing" constant="20" id="f1d-k4-GaK"/>
-                            <constraint firstItem="n0n-ty-z06" firstAttribute="top" secondItem="Kv1-ws-GAm" secondAttribute="bottom" constant="20" id="jfy-VI-tmd"/>
-                            <constraint firstItem="cEU-wh-s64" firstAttribute="top" secondItem="k7Z-bk-H6o" secondAttribute="bottom" constant="25" id="kYd-ry-v04"/>
+                            <constraint firstItem="mcc-HX-w8T" firstAttribute="top" secondItem="7s9-7G-Asf" secondAttribute="bottom" constant="10" id="fXJ-xg-aNS"/>
+                            <constraint firstItem="n0n-ty-z06" firstAttribute="top" secondItem="Kv1-ws-GAm" secondAttribute="bottom" constant="10" id="jfy-VI-tmd"/>
+                            <constraint firstItem="cEU-wh-s64" firstAttribute="top" secondItem="k7Z-bk-H6o" secondAttribute="bottom" constant="10" id="kYd-ry-v04"/>
+                            <constraint firstItem="qx1-w6-Sse" firstAttribute="top" secondItem="7s9-7G-Asf" secondAttribute="bottom" constant="10" id="l9R-bs-bRO"/>
                             <constraint firstItem="Mv8-W3-08I" firstAttribute="top" secondItem="YOP-j1-NZo" secondAttribute="bottom" constant="17" id="n6a-2S-bC0"/>
-                            <constraint firstItem="Kv1-ws-GAm" firstAttribute="top" secondItem="Mv8-W3-08I" secondAttribute="bottom" constant="20" id="ndD-Lz-qvZ"/>
+                            <constraint firstItem="Kv1-ws-GAm" firstAttribute="top" secondItem="Mv8-W3-08I" secondAttribute="bottom" constant="10" id="ndD-Lz-qvZ"/>
                             <constraint firstItem="MFl-Nd-iUW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oOU-U3-Z1g"/>
+                            <constraint firstItem="7s9-7G-Asf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pKA-cy-UhG"/>
                             <constraint firstItem="Mv8-W3-08I" firstAttribute="centerX" secondItem="YOP-j1-NZo" secondAttribute="centerX" id="po8-0N-7ss"/>
+                            <constraint firstItem="8ll-LA-8j8" firstAttribute="baseline" secondItem="7s9-7G-Asf" secondAttribute="baseline" id="q7e-6X-poh"/>
                             <constraint firstItem="eg0-2n-hoB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qOI-I9-YOH"/>
-                            <constraint firstItem="WyW-3a-Avh" firstAttribute="top" secondItem="eg0-2n-hoB" secondAttribute="bottom" constant="17" id="qVZ-vK-K9L"/>
-                            <constraint firstItem="8Cp-P6-paK" firstAttribute="top" secondItem="k7Z-bk-H6o" secondAttribute="bottom" constant="25" id="wk2-by-UR0"/>
+                            <constraint firstItem="WyW-3a-Avh" firstAttribute="top" secondItem="eg0-2n-hoB" secondAttribute="bottom" constant="10" id="qVZ-vK-K9L"/>
+                            <constraint firstItem="8ll-LA-8j8" firstAttribute="leading" secondItem="7s9-7G-Asf" secondAttribute="leading" id="uPg-xX-XbQ"/>
+                            <constraint firstItem="8Cp-P6-paK" firstAttribute="top" secondItem="k7Z-bk-H6o" secondAttribute="bottom" constant="10" id="wk2-by-UR0"/>
                             <constraint firstItem="YOP-j1-NZo" firstAttribute="top" secondItem="vmU-Fe-3ZL" secondAttribute="bottom" constant="8" id="yKV-P0-chH"/>
+                            <constraint firstItem="qx1-w6-Sse" firstAttribute="leading" secondItem="YVk-cZ-2g5" secondAttribute="trailing" constant="20" id="zoZ-5p-QsO"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
